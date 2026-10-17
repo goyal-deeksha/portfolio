@@ -1,13 +1,14 @@
 // src/app/robots.ts
 import { MetadataRoute } from "next";
 
-export default function robots(): MetadataRoute.Sitemap {
-  const baseUrl = "https://your-portfolio-domain.com"; // Replace with your live domain
+export default function robots(): MetadataRoute.Robots {
+  const baseUrl = "https://your-portfolio-domain.com"; // Replace with your live Vercel domain later
 
-  return [
-    {
+  return {
+    rules: {
       userAgent: "*",
       allow: "/",
     },
-  ] as unknown as MetadataRoute.Sitemap;
+    sitemap: `${baseUrl}/sitemap.xml`,
+  };
 }
