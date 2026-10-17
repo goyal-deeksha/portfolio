@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       "Deeksha Bansal | Next.js Developer Specialising in SEO and Performance",
     description:
       "Building fast, accessible, and high-ranking web applications that convert visitors into users.",
-    url: "https://your-portfolio-domain.com",
+    url: "https://deeksha-bansal-portfolio.vercel.app",
     siteName: "Deeksha Bansal Portfolio",
     type: "website",
   },

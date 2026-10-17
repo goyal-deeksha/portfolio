@@ -2,7 +2,7 @@
 import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://your-portfolio-domain.com"; // Replace with your live Vercel domain later
+  const baseUrl = "https://deeksha-bansal-portfolio.vercel.app";
 
   return {
     rules: {

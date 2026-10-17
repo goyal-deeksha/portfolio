@@ -2,7 +2,7 @@
 import { MetadataRoute } from "next";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = "https://your-portfolio-domain.com"; // Replace with your live domain later
+  const baseUrl = "https://deeksha-bansal-portfolio.vercel.app";
 
   return [
     {
